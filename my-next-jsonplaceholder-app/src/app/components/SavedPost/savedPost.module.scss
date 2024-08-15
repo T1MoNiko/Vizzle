@@ -1,0 +1,23 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: 20px auto;
+    gap: 20px;
+}
+.savedPost {
+    width: 100%;
+    min-height: 300px;
+    box-shadow: 1px 2px 4px #7a7a7a;
+    padding: 20px;
+    background-color: #0d0d0d;
+    p {
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: justify;
+        &:first-child {
+            font-size: 17px;
+            text-align: center;
+        }
+    }
+}

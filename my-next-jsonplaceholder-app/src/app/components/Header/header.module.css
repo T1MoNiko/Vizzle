@@ -1,0 +1,21 @@
+.header {
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    box-shadow: 0 2px 5px rgb(45, 45, 45);
+    font-size: 17px;
+}
+.header > nav > ul > a > li {
+    transition: all 0.5s;
+}
+
+.header > nav > ul > a > li:hover {
+    transform: translate(0, -1px) scale(1.01);
+}
+.logo {
+    width: 60px;
+    user-select: none;
+}

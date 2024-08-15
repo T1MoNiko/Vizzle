@@ -1,0 +1,12 @@
+.footer {
+    background-color: #000; /* Чёрный фон */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgb(67, 67, 67);
+}
+
+.text {
+    color: #fff; /* Белый текст */
+    margin: 0;
+    font-size: 14px;
+}
